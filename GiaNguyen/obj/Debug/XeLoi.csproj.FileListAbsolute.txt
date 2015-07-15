@@ -1,0 +1,9 @@
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\bin\XeLoi.dll
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\bin\XeLoi.pdb
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\bin\Controller.dll
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\bin\Model.dll
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\bin\Controller.pdb
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\bin\Model.pdb
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\obj\Debug\XeLoi.csprojResolveAssemblyReference.cache
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\obj\Debug\XeLoi.dll
+D:\ThanhPT\Xe_Loi_Nam_Dinh\xe_loi_nam_dinh_web\GiaNguyen\obj\Debug\XeLoi.pdb

@@ -1,0 +1,542 @@
+[Date 17/05/2015 09:49:45]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.news_list.Loadchuyenmuc() in H:\AnToanThanhXD\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news_list.aspx.cs:line 145
+-----------------------------------------------
+[Date 17/05/2015 09:49:21]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.news_list.Loadchuyenmuc() in H:\AnToanThanhXD\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news_list.aspx.cs:line 145
+-----------------------------------------------
+[Date 17/05/2015 09:48:25]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.news_list.Loadchuyenmuc() in H:\AnToanThanhXD\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news_list.aspx.cs:line 145
+-----------------------------------------------
+[Date 31/03/2015 11:24:54]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at vpro.eshop.cpanel.page.news.SaveInfo(String strLink) in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 453
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:52]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at vpro.eshop.cpanel.page.news.CheckExitsLink(String strLink) in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 772
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:46]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at vpro.eshop.cpanel.page.news.SaveInfo(String strLink) in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 453
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:45]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at vpro.eshop.cpanel.page.news.CheckExitsLink(String strLink) in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 772
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:39]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at vpro.eshop.cpanel.page.news.SaveInfo(String strLink) in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 453
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:39]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at vpro.eshop.cpanel.page.news.CheckExitsLink(String strLink) in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 772
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:22]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at vpro.eshop.cpanel.page.news.getInfo() in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news.aspx.cs:line 234
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 31/03/2015 11:23:20]
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'NEWS_SOTRANG_THANG'.
+Invalid column name 'NEWS_SONGUOISUDUNG'.
+Invalid column name 'NEWS_KHOGIAY_TOIDA'.
+Invalid column name 'NEWS_TN_PRINT'.
+Invalid column name 'NEWS_TH_FAX'.
+Invalid column name 'ID_HANGXE'.
+Invalid column name 'ID_LOAIXE'.
+Invalid column name 'ID_YEAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at vpro.eshop.cpanel.page.news_list.SearchResult() in D:\ThanhPT\An_Toan_Thang\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\news_list.aspx.cs:line 175
+ClientConnectionId:a728c1be-5a1d-4633-836a-444eb4cf7d31
+-----------------------------------------------
+[Date 12/03/2015 11:02:53]
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at vpro.eshop.cpanel.page.online_list.GridItemList_ItemDataBound(Object sender, DataGridItemEventArgs e) in D:\ThanhPT\0Project_sample\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\online_list.aspx.cs:line 297
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.online_list.SearchResult() in D:\ThanhPT\0Project_sample\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\online_list.aspx.cs:line 122
+-----------------------------------------------
+[Date 12/03/2015 10:04:38]
+System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at vpro.eshop.cpanel.page.category_list.SearchResult() in D:\ThanhPT\0Project_sample\Cpanel_ProductsAndNews\vpro.eshop.cpanel\page\category_list.aspx.cs:line 99
+ClientConnectionId:b23fac5d-127c-4c15-9e56-6d98081da375
+-----------------------------------------------
+[Date 28/01/2015 04:29:18]
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Update(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at vpro.eshop.cpanel.page.news.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\news.aspx.cs:line 647
+ClientConnectionId:11dbd73f-8c75-49ee-a522-8c2c9f38c6f5
+-----------------------------------------------
+[Date 28/01/2015 04:27:35]
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.Update(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at vpro.eshop.cpanel.page.news.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\news.aspx.cs:line 647
+ClientConnectionId:11dbd73f-8c75-49ee-a522-8c2c9f38c6f5
+-----------------------------------------------
+[Date 05/01/2015 04:24:31]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.getInfo() in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 274
+-----------------------------------------------
+[Date 05/01/2015 04:24:26]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:24:23]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:24:20]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:24:09]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:23:23]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:22:22]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.getInfo() in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 274
+-----------------------------------------------
+[Date 05/01/2015 04:21:44]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.getInfo() in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 274
+-----------------------------------------------
+[Date 05/01/2015 04:20:46]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.getInfo() in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 274
+-----------------------------------------------
+[Date 05/01/2015 04:17:17]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:17:10]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.SaveInfo(String strLink) in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 382
+-----------------------------------------------
+[Date 05/01/2015 04:16:41]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.getInfo() in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 274
+-----------------------------------------------
+[Date 05/01/2015 04:16:33]
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at vpro.eshop.cpanel.page.category.getInfo() in D:\ThanhPT\My_Khang_BDS\Cpanel\vpro.eshop.cpanel\page\category.aspx.cs:line 274
+-----------------------------------------------
+[Date 12/11/2014 03:37:13]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.news.LoadSize() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\news.aspx.cs:line 1062
+-----------------------------------------------
+[Date 12/11/2014 03:37:06]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.news.LoadSize() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\news.aspx.cs:line 1062
+-----------------------------------------------
+[Date 12/11/2014 03:27:39]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.size_list.SearchResult() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size_list.aspx.cs:line 91
+-----------------------------------------------
+[Date 12/11/2014 03:25:41]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.size_list.SearchResult() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size_list.aspx.cs:line 91
+-----------------------------------------------
+[Date 12/11/2014 03:24:04]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.size_list.SearchResult() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size_list.aspx.cs:line 91
+-----------------------------------------------
+[Date 12/11/2014 03:22:35]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.size_list.SearchResult() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size_list.aspx.cs:line 91
+-----------------------------------------------
+[Date 12/11/2014 03:22:06]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_SIZE' does not contain a property with the name 'COLOR_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.size_list.SearchResult() in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size_list.aspx.cs:line 91
+-----------------------------------------------
+[Date 12/11/2014 03:20:33]
+System.InvalidOperationException: Can't perform Create, Update, or Delete operations on 'Table(ESHOP_SIZE)' because it has no primary key.
+   at System.Data.Linq.Table`1.CheckReadOnly()
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at vpro.eshop.cpanel.page.size.SaveInfo(String strLink) in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size.aspx.cs:line 181
+-----------------------------------------------
+[Date 12/11/2014 03:17:55]
+System.InvalidOperationException: Can't perform Create, Update, or Delete operations on 'Table(ESHOP_SIZE)' because it has no primary key.
+   at System.Data.Linq.Table`1.CheckReadOnly()
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at vpro.eshop.cpanel.page.size.SaveInfo(String strLink) in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size.aspx.cs:line 181
+-----------------------------------------------
+[Date 12/11/2014 03:14:45]
+System.InvalidOperationException: Can't perform Create, Update, or Delete operations on 'Table(ESHOP_SIZE)' because it has no primary key.
+   at System.Data.Linq.Table`1.CheckReadOnly()
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at vpro.eshop.cpanel.page.size.SaveInfo(String strLink) in D:\ThanhPT\TuongLinh\Cpanel\vpro.eshop.cpanel\page\size.aspx.cs:line 181
+-----------------------------------------------
+[Date 03/11/2014 08:58:29]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_BUY' does not contain a property with the name 'CUSTOMER_SEX'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.page_installment_list_aspx.__DataBind__control43(Object sender, EventArgs e) in d:\ThanhPT\NguyenSon\hptmobile.vn.web\Cpanel\vpro.eshop.cpanel\page\installment_list.aspx:line 174
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.installment_list.SearchResult() in D:\ThanhPT\NguyenSon\hptmobile.vn.web\Cpanel\vpro.eshop.cpanel\page\installment_list.aspx.cs:line 104
+-----------------------------------------------
+[Date 03/11/2014 08:57:07]
+System.Web.HttpException (0x80004005): DataBinding: 'vpro.eshop.cpanel.ESHOP_BUY' does not contain a property with the name 'CUSTOMER_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at vpro.eshop.cpanel.page.installment_list.SearchResult() in D:\ThanhPT\NguyenSon\hptmobile.vn.web\Cpanel\vpro.eshop.cpanel\page\installment_list.aspx.cs:line 104
+-----------------------------------------------
+[Date 11/06/2014 10:39:37]
+System.ArgumentException: Column 'CAT_PARENT_ID' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at vpro.functions.DataUtil.TransformTableWithSpace(DataTable& source, DataTable dest, DataRelation rel, DataRow parentRow)
+   at vpro.eshop.cpanel.page.vote.LoadCategoryParent() in D:\Truong\chuyenchothue.com.web\Cpanel\vpro.eshop.cpanel\page\vote.aspx.cs:line 59
+-----------------------------------------------
+[Date 11/06/2014 10:35:52]
+System.ArgumentException: Column 'CAT_PARENT_ID' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at vpro.functions.DataUtil.TransformTableWithSpace(DataTable& source, DataTable dest, DataRelation rel, DataRow parentRow)
+   at vpro.eshop.cpanel.page.vote_list.SearchResult() in D:\Truong\chuyenchothue.com.web\Cpanel\vpro.eshop.cpanel\page\vote-list.aspx.cs:line 104
+-----------------------------------------------
+[Date 11/06/2014 10:35:48]
+System.ArgumentException: Column 'CAT_PARENT_ID' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at vpro.functions.DataUtil.TransformTableWithSpace(DataTable& source, DataTable dest, DataRelation rel, DataRow parentRow)
+   at vpro.eshop.cpanel.page.vote.LoadCategoryParent() in D:\Truong\chuyenchothue.com.web\Cpanel\vpro.eshop.cpanel\page\vote.aspx.cs:line 59
+-----------------------------------------------
+[Date 11/06/2014 10:34:03]
+System.ArgumentException: Column 'CAT_PARENT_ID' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at vpro.functions.DataUtil.TransformTableWithSpace(DataTable& source, DataTable dest, DataRelation rel, DataRow parentRow)
+   at vpro.eshop.cpanel.page.vote.LoadCategoryParent() in D:\Truong\chuyenchothue.com.web\Cpanel\vpro.eshop.cpanel\page\vote.aspx.cs:line 59
+-----------------------------------------------
+[Date 04/06/2014 04:34:02]
+System.InvalidOperationException: Sequence contains no elements
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.Sys

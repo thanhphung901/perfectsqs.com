@@ -1,0 +1,40 @@
+<SiteMap>
+  <item Text="File" LookId="TopItemLook">
+    <item Text="New..." Look-LeftIconUrl="icon_new.gif" Look-HoverLeftIconUrl="icon_new_over.gif" />
+    <item Text="Open..." Look-LeftIconUrl="icon_open.gif" Look-HoverLeftIconUrl="icon_open_over.gif" />
+    <item LookId="BreakItem" />
+    <item Text="Calendar">
+      <item ServerTemplateId="CalendarTemplate" LookId="TemplatedItemLook" />
+      <item LookId="BreakItem" />
+      <item Text="Microsoft Office Online" Look-LeftIconUrl="icon_fileSearch.gif" Look-HoverLeftIconUrl="icon_fileSearch_over.gif" />
+    </item>
+    <item LookId="BreakItem" />
+    <item Text="Save" Look-LeftIconUrl="icon_save.gif" Look-HoverLeftIconUrl="icon_save_over.gif" />
+    <item Text="Save As" />
+    <item Text="Save as Web Page..." Look-LeftIconUrl="icon_saveAsWebPage.gif" Look-HoverLeftIconUrl="icon_saveAsWebPage_over.gif" />
+    <item Text="File Search" Look-LeftIconUrl="icon_fileSearch.gif" Look-HoverLeftIconUrl="icon_fileSearch_over.gif" />
+    <item LookId="BreakItem" />
+    <item Text="Page Setup..." />
+    <item Text="Print Preview" Look-LeftIconUrl="icon_printPreview.gif" Look-HoverLeftIconUrl="icon_printPreview_over.gif" />
+    <item Text="Print..." Look-LeftIconUrl="icon_print.gif" Look-HoverLeftIconUrl="icon_print_over.gif" />
+    <item LookId="BreakItem" />
+    <item Text="Exit" />
+  </item>
+  <item Text="Format" LookId="TopItemLook">
+    <item Text="Font..." Look-LeftIconUrl="icon_font.gif" Look-HoverLeftIconUrl="icon_font_over.gif" />
+    <item Text="Paragraph..." Look-LeftIconUrl="icon_paragraph.gif" Look-HoverLeftIconUrl="icon_paragraph_over.gif" />
+    <item Text="Bullets and Numbering..." TextWrap="false" Look-LeftIconUrl="icon_bullets.gif" Look-HoverLeftIconUrl="icon_bullets_over.gif" />
+    <item Text="Borders and Shading..." TextWrap="false" />
+    <item LookId="BreakItem" />
+    <item Text="Background">
+      <item ServerTemplateId="ColourPicker" LookId="TemplatedItemLook" />
+      <item LookId="BreakItem" />
+      <item Text="More Colors..." />
+      <item Text="Fill Effects..." />
+      <item Text="Printed Watermark..." />
+    </item>
+    <item Text="Auto Format..." Look-LeftIconUrl="icon_autoFormat.gif" Look-HoverLeftIconUrl="icon_autoFormat_over.gif" />
+    <item Text="Styles and Formatting..." Look-LeftIconUrl="icon_stylesAndFormatting.gif" Look-HoverLeftIconUrl="icon_stylesAndFormatting_over.gif" />
+    <item Text="Reveal Formatting..." TextWrap="false" Look-LeftIconUrl="icon_revealFormatting.gif" Look-HoverLeftIconUrl="icon_revealFormatting_over.gif" />
+  </item>
+</SiteMap>

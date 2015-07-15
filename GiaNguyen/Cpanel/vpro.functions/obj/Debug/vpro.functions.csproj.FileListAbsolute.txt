@@ -1,0 +1,25 @@
+D:\LUCNV_DATA\Project\2k12\vpro.enews\vpro.enews\vpro.functions\bin\Debug\vpro.functions.dll
+D:\LUCNV_DATA\Project\2k12\vpro.enews\vpro.enews\vpro.functions\bin\Debug\vpro.functions.pdb
+D:\LUCNV_DATA\Project\2k12\vpro.enews\vpro.enews\vpro.functions\obj\Debug\ResolveAssemblyReference.cache
+D:\LUCNV_DATA\Project\2k12\vpro.enews\vpro.enews\vpro.functions\obj\Debug\vpro.functions.dll
+D:\LUCNV_DATA\Project\2k12\vpro.enews\vpro.enews\vpro.functions\obj\Debug\vpro.functions.pdb
+D:\LUCNV_DATA\Project\2k12\vpro.eshop\vpro.eshop.cpanel\vpro.functions\bin\Debug\vpro.functions.dll
+D:\LUCNV_DATA\Project\2k12\vpro.eshop\vpro.eshop.cpanel\vpro.functions\bin\Debug\vpro.functions.pdb
+D:\LUCNV_DATA\Project\2k12\vpro.eshop\vpro.eshop.cpanel\vpro.functions\obj\Debug\ResolveAssemblyReference.cache
+D:\LUCNV_DATA\Project\2k12\vpro.eshop\vpro.eshop.cpanel\vpro.functions\obj\Debug\vpro.functions.dll
+D:\LUCNV_DATA\Project\2k12\vpro.eshop\vpro.eshop.cpanel\vpro.functions\obj\Debug\vpro.functions.pdb
+D:\LUCNV_DATA\Project\2k12\vpro.vuorauviet\vpro.vuonrauviet.com.cpanel\vpro.functions\bin\Debug\vpro.functions.dll
+D:\LUCNV_DATA\Project\2k12\vpro.vuorauviet\vpro.vuonrauviet.com.cpanel\vpro.functions\bin\Debug\vpro.functions.pdb
+D:\LUCNV_DATA\Project\2k12\vpro.vuorauviet\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\ResolveAssemblyReference.cache
+D:\LUCNV_DATA\Project\2k12\vpro.vuorauviet\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\vpro.functions.dll
+D:\LUCNV_DATA\Project\2k12\vpro.vuorauviet\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\vpro.functions.pdb
+E:\Du An Tham Gia\vpro.vuonrauviet.com.cpanel\vpro.functions\bin\Debug\vpro.functions.dll
+E:\Du An Tham Gia\vpro.vuonrauviet.com.cpanel\vpro.functions\bin\Debug\vpro.functions.pdb
+E:\Du An Tham Gia\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\ResolveAssemblyReference.cache
+E:\Du An Tham Gia\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\vpro.functions.dll
+E:\Du An Tham Gia\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\vpro.functions.pdb
+C:\Documents and Settings\Administrator\Desktop\vpro.vuonrauviet.com.cpanel\vpro.functions\bin\Debug\vpro.functions.dll
+C:\Documents and Settings\Administrator\Desktop\vpro.vuonrauviet.com.cpanel\vpro.functions\bin\Debug\vpro.functions.pdb
+C:\Documents and Settings\Administrator\Desktop\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\vpro.functions.dll
+C:\Documents and Settings\Administrator\Desktop\vpro.vuonrauviet.com.cpanel\vpro.functions\obj\Debug\vpro.functions.pdb

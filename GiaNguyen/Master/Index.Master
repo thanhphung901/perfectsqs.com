@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="perfectsqs.com.Master.Index" %>
+<%@ Register src="../UIs/TopPage.ascx" tagname="TopPage" tagprefix="uc1" %>
+<%@ Register src="../UIs/Header.ascx" tagname="Header" tagprefix="uc2" %>
+<%@ Register src="../UIs/MenuTop.ascx" tagname="MenuTop" tagprefix="uc3" %>
+<%@ Register src="../UIs/Slide.ascx" tagname="Slide" tagprefix="uc4" %>
+<%@ Register src="../UIs/FooterTop.ascx" tagname="FooterTop" tagprefix="uc5" %>
+<%@ Register src="../UIs/FooterBottom.ascx" tagname="FooterBottom" tagprefix="uc6" %>
+<%@ Register src="../UIs/Intro.ascx" tagname="Intro" tagprefix="uc7" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/vi-vn/styles/css.css"/>
+    <link rel="stylesheet" type="text/css" href="/vi-vn/styles/styles_sqs.css"/>
+    <link rel="stylesheet" type="text/css" href="/vi-vn/styles/navx.css">
+    <script type="text/javascript" src="/vi-vn/scripts/jquery.min.1.11.2.js"></script>
+    <link rel="stylesheet" href="/vi-vn/Styles/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/vi-vn/styles/font-awesome.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type='text/javascript'>//<![CDATA[
+        $(function () {
+            var sticky_navigation_offset_top = $('.wMainMenu, .cLogo').offset().top;
+            var sticky_navigation = function () {
+                var scroll_top = $(window).scrollTop();
+                if (scroll_top > sticky_navigation_offset_top) {
+                    $('.wMainMenu').css({ 'position': 'fixed', 'top': 0 });
+                    $('.cLogo img').css({ 'position': 'fixed', 'top': -20, 'left': 10, 'width': 75, 'margin-top': 0 });
+                } else {
+                    $('.wMainMenu').css({ 'position': 'relative', 'top': 0 });
+                    $('.cLogo img').css({ 'position': 'relative', 'top': 1, 'width': 150 });
+                }
+            };
+            sticky_navigation();
+            $(window).scroll(function () {
+                sticky_navigation();
+            });
+        }); // JavaScript Document
+    </script>
+    <!--TopPage-->    <uc1:TopPage ID="TopPage1" runat="server" />    <!--End TopPage-->
+    <!--Header-->    <uc2:Header ID="Header1" runat="server" />    <!--End Header-->
+    <!--MenuTop-->    <uc3:MenuTop ID="MenuTop1" runat="server" />    <!--End MenuTop-->
+    <!--Slide-->    <uc4:Slide ID="Slide1" runat="server" />    <!--End Slide-->
+    <div class="wrap wMain bgWhite">
+        <uc7:Intro ID="Intro1" runat="server" />
+    </div>
+    <!--FooterTop-->
+    <uc5:FooterTop ID="FooterTop1" runat="server" />
+    <!--End FooterTop-->
+    <!--FooterBottom-->
+    <uc6:FooterBottom ID="FooterBottom1" runat="server" />
+    <!--End Footer Bottom-->
+    <script type="text/javascript" src="/vi-vn/scripts/js.js"></script> 
+    <script type="text/javascript" src="/vi-vn/scripts/jquery.nivo.slider.js"></script> 
+    <script>
+        //slider nivo
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script> 
+    <script type="text/javascript" src="/vi-vn/scripts/scrolltopcontrol.js"></script>
+    </form>
+</body>
+</html>

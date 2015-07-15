@@ -1,0 +1,281 @@
+﻿/*Nav Desktop*/
+.radiusTT() {
+ -moz-border-radius-bottomright: 9px;
+ -webkit-border-bottom-right-radius: 9px;
+ border-bottom-right-radius: 9px;
+ -moz-border-radius-bottomleft: 9px;
+ -webkit-border-bottom-left-radius: 9px;
+ border-bottom-left-radius: 9px;
+}
+.navx a {
+	text-decoration: none;
+	color: #fff;
+	white-space: nowrap;
+	cursor: pointer;
+	font-family: "Cabin", Arial, Helvetica, sans-serif;
+}
+.bgNavx {
+	background: none;
+	background-color: transparent;
+	border-bottom: solid 2px #2E710C;
+	
+}
+.navx ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.navx ul ul {
+	display: none;
+	position: absolute;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	background: #fff;
+}
+.navx ul ul a {
+	color: #fff;
+	padding: 5px 20px;
+	color: #0078AE;
+	font-size: 0.88em;
+	line-height: 30px;
+}
+.navx ul ul ul {
+	left: 100%;
+	top: 0px;
+}
+.navx ul ul li {
+	position: relative;
+	min-width: 150px;
+	border-bottom: 1px solid #E7E7E7;
+}
+.navx ul ul li:hover {
+	background: #eee;
+}
+.navx ul ul li:hover> a {
+	color: #000;
+}
+.navx ul li:hover>ul {
+	display: block;
+}
+.navx {
+	clear: both;
+	display: block;
+	z-index: 99;
+	
+	display: inline-block; float:right
+}
+.navx>ul {
+	float: left;
+	display: block;
+}
+.navx>ul>li+li:before {
+	content: " ";
+	color: #E5A100
+}
+.navx>ul>li>a {
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 0.9375em;
+}
+.navx > ul > li > ul {
+	top: 100%;
+	left: 0;
+}
+/*End Nav Desktop*/
+.clearfix:after {
+	clear: both;
+}
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+/* nav mobile*/
+#pull {
+	display: none;
+	position: relative;
+	right: 5px;
+	top: 5px;
+	float: right;
+	height: 30px;
+	text-align: center;
+}
+#pull i {
+	font-size: 20px;
+	top: 0px;
+	color: #8FC069
+}
+#btnClose {
+	display: none;
+	cursor: pointer;
+	text-align: left;
+	padding: 5px;
+	padding-left: 15px;
+}
+.wMainMenu {
+	background:url("../images/bg-nav.png") ;
+	background-size: auto 100%;
+	position:relative;
+	z-index:22;
+	transition: all 0.5s ease-out 0s;
+}
+.wHeader .cLogo img{ position:relative; z-index:100}
+ @media screen and (min-width: 760px) {
+	 .navx{position: relative;}
+.wMainMenu {
+	height: 56px;
+}
+.navx>ul>li:first-child {
+	box-shadow: -1px 0px 0px 0px #015C92;
+}
+.navx>ul>li {
+	position: relative;
+	float: left;
+}
+.navx>ul>li:hover, .navx>ul>li:active, .navx>ul>li.active, .navx>ul>li:focus {
+	color: #fff;
+	background: url(../images/bg-nav-hover.png);
+	background-size: auto 100%;
+	z-index: 9;
+}
+.navx>ul>li:hover >a, .navx>ul>li:active> a, .navx>ul>li.active> a, .navx>ul>li:focus >a {
+	border-bottom: 4px solid #6FA744;
+}
+.navx>ul>li>a {
+	line-height: 56px;
+	position: relative;
+	display: block;
+}
+.navx>ul> li {
+	position: relative;
+	display: inline-block;
+	border-left: 1px solid #3C8BB7;
+	border-right: 1px solid #015C92;
+	height: 56px;
+}
+}
+ @media screen and (max-width: 767px) {
+#pull {
+	display: block;
+}
+.parent>a:after {
+	content: "\00bb";
+	color: #fff;
+	margin-left: 5px
+}
+#btnClose {
+	display: block;
+}
+.navxMb {
+	width: 100% !important;
+	float: left !important
+}
+.navx>ul {
+	width: auto;
+	min-width: 200px
+}
+.navx >ul {
+	display: none;
+	margin-top: 0px;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	width: 100%;
+	background: #fff;
+	z-index: 9999999;
+}
+.navx >ul>li {
+	float: none;
+	text-align: right
+}
+.navx >ul>li >a{
+color: #0078AE;}
+.navx ul li {
+	border-bottom: solid #E7E7E7 1px;
+}
+.navx ul li:hover>ul {
+	display: none;
+}
+.navx ul ul {
+	position: relative;
+	clear: both;
+	top: auto;
+	left: auto;
+	background: #eee;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important
+}
+.navx > ul > li > ul {
+	background: #eee
+}
+.navx ul ul li {
+}
+.navx ul ul a {
+	padding-left: 15px;
+	 
+}
+.navx > ul > li > ul {
+	position: relative;
+	clear: both;
+	top: auto;
+	left: auto;
+}
+.navx ul ul ul {
+	position: relative;
+	left: 0;
+	padding-top: 0;
+	padding-bottom: 0
+}
+.navx ul ul ul a {
+	color: #fff
+}
+.open {
+	border-bottom: 0;
+	padding-bottom: 0px !important;
+}
+.navxMb li {
+	color: #fff
+}
+#btnClose span {
+	color: #fff;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
+	border: solid 1px #fff;
+	padding: 0 7px 2px 7px;
+}
+#btnClose {
+	color: #fff;
+	padding-bottom: 10px
+}
+ @media screen and (max-width: 800px) {
+}
+.nav_f {
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.nav_f a {
+	padding: 0 20px;
+	white-space: nowrap;
+	color: #814900;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: bold
+}
+.nav_f li:first-child a {
+	padding-left: 0
+}
+.nav_f li+li:before {
+	content: "|";
+	color: #fff
+}
+.bSearch {
+	float: right;
+	position: relative
+}

@@ -1,0 +1,10 @@
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\bin\Controller.dll
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\bin\Model.dll
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\bin\Controller.pdb
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\bin\Model.pdb
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\obj\Debug\AnViet.csprojResolveAssemblyReference.cache
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\bin\AnViet.dll
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\bin\AnViet.pdb
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\obj\Debug\AnViet.dll
+D:\ThanhPT\an_viet_web\an_viet_web\GiaNguyen\obj\Debug\AnViet.pdb
+D:\ThanhPT\truong_thanh_web\GiaNguyen\obj\Debug\AnViet.csprojResolveAssemblyReference.cache

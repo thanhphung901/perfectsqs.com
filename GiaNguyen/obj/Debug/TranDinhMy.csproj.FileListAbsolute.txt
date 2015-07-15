@@ -1,0 +1,9 @@
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\bin\TranDinhMy.dll
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\bin\TranDinhMy.pdb
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\bin\Controller.dll
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\bin\Model.dll
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\bin\Controller.pdb
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\bin\Model.pdb
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\obj\Debug\TranDinhMy.csprojResolveAssemblyReference.cache
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\obj\Debug\TranDinhMy.dll
+D:\ThanhPT\Tran_Dinh_My\tran_dinh_my_web\GiaNguyen\obj\Debug\TranDinhMy.pdb

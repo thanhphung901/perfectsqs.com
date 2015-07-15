@@ -1,0 +1,9 @@
+H:\SoftWeb\perfectsqs.com\GiaNguyen\obj\Debug\perfectsqs.com.csprojResolveAssemblyReference.cache
+H:\SoftWeb\perfectsqs.com\GiaNguyen\bin\perfectsqs.com.dll
+H:\SoftWeb\perfectsqs.com\GiaNguyen\bin\perfectsqs.com.pdb
+H:\SoftWeb\perfectsqs.com\GiaNguyen\bin\Controller.dll
+H:\SoftWeb\perfectsqs.com\GiaNguyen\bin\Model.dll
+H:\SoftWeb\perfectsqs.com\GiaNguyen\bin\Controller.pdb
+H:\SoftWeb\perfectsqs.com\GiaNguyen\bin\Model.pdb
+H:\SoftWeb\perfectsqs.com\GiaNguyen\obj\Debug\perfectsqs.com.dll
+H:\SoftWeb\perfectsqs.com\GiaNguyen\obj\Debug\perfectsqs.com.pdb

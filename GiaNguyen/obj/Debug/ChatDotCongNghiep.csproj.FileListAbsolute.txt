@@ -1,0 +1,9 @@
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\bin\ChatDotCongNghiep.dll
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\bin\ChatDotCongNghiep.pdb
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\bin\Controller.dll
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\bin\Model.dll
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\bin\Controller.pdb
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\bin\Model.pdb
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\obj\Debug\ChatDotCongNghiep.csprojResolveAssemblyReference.cache
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\obj\Debug\ChatDotCongNghiep.dll
+D:\ThanhPT\Chat_Dot_Cong_Nghiep\chat_dot_cong_nghiep_web\GiaNguyen\obj\Debug\ChatDotCongNghiep.pdb
