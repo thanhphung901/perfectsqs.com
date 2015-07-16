@@ -76,7 +76,7 @@ namespace perfectsqs.com.vi_vn
                         break;
 
                     default:
-                        Response.Redirect("/trang-chu.html");
+                        Response.Redirect("/");
                         break;
                 }
             }
@@ -129,7 +129,7 @@ namespace perfectsqs.com.vi_vn
             headerDes.Content = Utils.CStrDef(Session["News_seo_desc"]);
             headerKey.Content = Utils.CStrDef(Session["News_seo_keyword"]);
             propety.Attributes.Add("property", "og:image");
-            propety.Content = "perfectsqs.com.com" + PathFiles.GetPathNews(Utils.CIntDef(Session["News_id"])) + Utils.CStrDef(Session["News_image3"]);
+            propety.Content = "perfectsqs.com" + PathFiles.GetPathNews(Utils.CIntDef(Session["News_id"])) + Utils.CStrDef(Session["News_image3"]);
             header.Controls.Add(propety);
             if (string.IsNullOrEmpty(headerDes.Content))
             {

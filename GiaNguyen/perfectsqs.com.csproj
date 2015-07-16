@@ -150,11 +150,14 @@
     <Content Include="data\news\1409\thiet-ke-thi-cong-showroom-2.png" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="UIs\BannerDetail.ascx" />
     <Content Include="UIs\FooterBottom.ascx" />
     <Content Include="UIs\FooterTop.ascx" />
     <Content Include="UIs\Header.ascx" />
     <Content Include="UIs\Intro.ascx" />
+    <Content Include="UIs\ListNews.ascx" />
     <Content Include="UIs\MenuTop.ascx" />
+    <Content Include="UIs\NewsDetail.ascx" />
     <Content Include="UIs\Path.ascx" />
     <Content Include="UIs\Slide.ascx" />
     <Content Include="UIs\TopPage.ascx" />
@@ -226,6 +229,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Master\Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
     <Compile Include="Master\Index.Master.cs">
       <DependentUpon>Index.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,6 +244,13 @@
       <DependentUpon>Index.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIs\BannerDetail.ascx.cs">
+      <DependentUpon>BannerDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UIs\BannerDetail.ascx.designer.cs">
+      <DependentUpon>BannerDetail.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UIs\FooterBottom.ascx.cs">
       <DependentUpon>FooterBottom.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -262,12 +279,26 @@
     <Compile Include="UIs\Intro.ascx.designer.cs">
       <DependentUpon>Intro.ascx</DependentUpon>
     </Compile>
+    <Compile Include="UIs\ListNews.ascx.cs">
+      <DependentUpon>ListNews.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UIs\ListNews.ascx.designer.cs">
+      <DependentUpon>ListNews.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UIs\MenuTop.ascx.cs">
       <DependentUpon>MenuTop.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UIs\MenuTop.ascx.designer.cs">
       <DependentUpon>MenuTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\NewsDetail.ascx.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UIs\NewsDetail.ascx.designer.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
     </Compile>
     <Compile Include="UIs\Path.ascx.cs">
       <DependentUpon>Path.ascx</DependentUpon>
@@ -343,6 +374,7 @@
   <ItemGroup>
     <None Include="bin\ComponentArt.UIFramework.lic" />
     <Content Include="Master\Index.Master" />
+    <Content Include="Master\Default.Master" />
     <None Include="vi-vn\fonts\fontawesome-webfont.eot" />
     <None Include="vi-vn\fonts\fontawesome-webfont.ttf" />
     <None Include="vi-vn\fonts\fontawesome-webfont.woff" />

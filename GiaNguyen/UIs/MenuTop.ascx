@@ -6,31 +6,38 @@
       <div class="col12 cNavx col-xs-12 col-sm-12">
         <div class="navx"> <a href="#" id="pull">MENU <i class="fa fa-list"></i></a>
           <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="detailnews.html">Solutions</a></li>
-            <li><a href="products.html">Products</a>
-              <ul>
-                <li><a href="#">First Wearable</a>
-                  <ul>
-                    <li><a href="#">Wearable products</a></li>
-                    <li><a href="#">Product Video</a></li>
-                    <li><a href="#">Product FAQ</a></li>
-                  </ul>
-                </li>
-                <li><a href="optical.html">Opticals</a>
-                  <ul>
-                    <li><a href="#">Blue2UV</a></li>
-                    <li><a href="#">eyeCoach</a> </li>
-                    <li><a href="#">PALEyeD</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <li><a href="detail.html">HomeHealth</a>
-            </li>
-            <li><a href="services.html">Services</a> </li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <asp:Repeater ID="Rpmenu" runat="server">
+                <ItemTemplate>
+                    <li class='<%#GetStyleActive(Eval("cat_seo_url"),Eval("cat_url")) %>'>
+                        <a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>"><%#Eval("cat_name")%></a>
+                        <asp:Repeater ID="Repeater1" runat="server" DataSource='<%# Load_Menu2(Eval("Cat_ID")) %>'>
+                            <HeaderTemplate>
+                                <ul>
+                            </HeaderTemplate>
+                            <ItemTemplate>
+                                <li><a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>">
+                                    <%#Eval("cat_name")%>
+                                    <asp:Repeater ID="Repeater1" runat="server" DataSource='<%# Load_Menu2(Eval("Cat_ID")) %>'>
+                                        <HeaderTemplate>
+                                            <ul>
+                                        </HeaderTemplate>
+                                        <ItemTemplate>
+                                            <li><a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>">
+                                                <%#Eval("cat_name")%></a></li>
+                                        </ItemTemplate>
+                                        <FooterTemplate>
+                                            </ul>
+                                        </FooterTemplate>
+                                    </asp:Repeater>
+                                </a></li>
+                            </ItemTemplate>
+                            <FooterTemplate>
+                                </ul>
+                            </FooterTemplate>
+                        </asp:Repeater>
+                    </li>
+                </ItemTemplate>
+            </asp:Repeater>
           </ul>
         </div>
       </div>

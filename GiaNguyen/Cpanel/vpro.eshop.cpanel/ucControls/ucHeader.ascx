@@ -2,8 +2,8 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucHeader.ascx.cs" Inherits="vpro.eshop.cpanel.ucControls.ucHeader" %>
 <div id="outer">
     <div id="logo">
-    <a href="../page/default.aspx">
-        <img src="../Images/logo_t.png" alt="" style="border: none;width:250px"/></a>
+    <%--<a href="../page/default.aspx">
+        <img src="../Images/logo_t.png" alt="" style="border: none;width:250px"/></a>--%>
     </div>
     <!-- InstanceBeginEditable name="Title" -->
     <div id="menu_main" style="display:none;">

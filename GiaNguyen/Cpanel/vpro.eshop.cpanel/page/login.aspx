@@ -19,7 +19,7 @@
     <form id="form1" runat="server">
     <div id="outer">
         <div id="logo">
-            <img src="../Images/logo_t.png" alt="" style="border: none;width:250px"/></div>
+            <%--<img src="../Images/logo_t.png" alt="" style="border: none;width:250px"/>--%></div>
         <div id="content">
             <div id="login">
                 <img src="../Images/Login_header.png" width="330" height="5" />

@@ -66,11 +66,11 @@ namespace perfectsqs.com.vi_vn
             {
             string _sEmailCC = string.Empty;
             string _sEmail = txtEmail.Value;
-            string _sName = txtLastName.Value + " " + txtFirstName.Value;
+            string _sName = txtName.Value;
             string _phone = txtPhone.Value;
-            string _content = txtContent.Value;
-            string _add = txtAddress.Value;
-            cf.Insert_contact(_sName, _sEmail, _add, _phone,  _content);
+            string _content = txtMessage.Value;
+            string _title = txtSubject.Value;
+            cf.Insert_contact(_sName, _sEmail, _title, _phone, _content);
             //string _mailBody = string.Empty;
             //_mailBody += "<br/><br/><strong>Tên khách hàng</strong>: " + _sName;
             //_mailBody += "<br/><br/><strong>Email</strong>: " + _sEmail;

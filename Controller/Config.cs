@@ -46,7 +46,7 @@ namespace Controller
             return _result;
         }
         //Insert contact
-        public bool Insert_contact(string name, string email, string address, string phone, string content)
+        public bool Insert_contact(string name, string email, string title, string phone, string content)
         {
             ESHOP_CONTACT add = new ESHOP_CONTACT
             {
@@ -54,7 +54,7 @@ namespace Controller
                 CONTACT_EMAIL = email,
                 CONTACT_CONTENT = content,
                 CONTACT_PUBLISHDATE = DateTime.Now,
-                CONTACT_ADDRESS = address,
+                CONTACT_TITLE = title,
                 CONTACT_PHONE = phone,
                 CONTACT_TYPE = 0
             };

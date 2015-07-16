@@ -8,12 +8,11 @@
         <div class="menu-main-menu-container">
           <h2>Quick link</h2>
           <ul class="f-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="how_it_works/index.html">How it works</a></li>
-            <li><a href="products/index.html">Products</a></li>
-            <li><a href="video/index.html">Videos</a></li>
-            <li><a href="contact-us/index.html">Contact us</a></li>
-            <li><a href="about-us/index.html">About us</a></li>
+            <asp:Repeater ID="Rpmenu" runat="server">
+                <ItemTemplate>
+                    <li><a href="<%#GetLink(Eval("cat_url"),Eval("cat_seo_url"),1)%>"><%#Eval("cat_name")%></a></li>
+                </ItemTemplate>
+            </asp:Repeater>
           </ul>
         </div>
       </div>

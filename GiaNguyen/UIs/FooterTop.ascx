@@ -27,6 +27,7 @@
                 <p>"eCare" is the invention relate to system with local/remote monitoring and diagnostic stations. This system allow to prediction of health condition and cares need based on regular measurement of physiological ...</p>
                 <a class="more-btn" href="specifications.html"></a><span class="check"></span> </div>
             </div>
+            <asp:Literal ID="lblLoadNews" runat="server"></asp:Literal>
           </div>
         </div>
       </div>
