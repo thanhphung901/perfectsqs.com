@@ -128,7 +128,7 @@ namespace vpro.eshop.cpanel.page
             {
                 case 0: str = "Slideshow";
                     break;
-                case 1: str = "Advertising";
+                case 1: str = "Banner Top";
                     break;
             }
             return str;            

@@ -3,7 +3,6 @@
     <div class="container">
         <div class="rowmn rHeader">
             <div class="col2 col-xs-12 col-md-2 col-sm-12 cLogo">
-                <a href=""><img src="data/logo.png" /></a>
                 <asp:Repeater ID="Rplogo" runat="server">
                     <ItemTemplate>
                         <%# Getbanner(Eval("BANNER_TYPE"),Eval("BANNER_FIELD1"), Eval("BANNER_ID"), Eval("BANNER_FILE"))%>

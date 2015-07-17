@@ -184,22 +184,6 @@
                         maxlength="4" style="width: 500px;" value="1" />
                 </td>
             </tr>
-            <tr style="display:none;">
-                <th valign="top" class="left">
-                    <span class="user">*</span>From date
-                </th>
-                <td>
-                    <uc1:pickerAndCalendar ID="ucFromDate" runat="server" />
-                </td>
-            </tr>
-            <tr style="display:none;">
-                <th valign="top" class="left">
-                    <span class="user">*</span>To date
-                </th>
-                <td>
-                    <uc1:pickerAndCalendar ID="ucToDate" runat="server" />
-                </td>
-            </tr>
             <tr style="height: 20px;display:none">
                 <th valign="top" class="left">
                     Language

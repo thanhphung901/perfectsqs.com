@@ -186,6 +186,7 @@
     <Content Include="vi-vn\images\seperator.png" />
     <Content Include="vi-vn\images\shadow-shape.png" />
     <Content Include="vi-vn\images\submit.png" />
+    <Content Include="vi-vn\images\wc-img.png" />
     <Content Include="vi-vn\Page_Default.aspx" />
     <Content Include="vi-vn\PrintPage.aspx" />
     <Content Include="vi-vn\Regis.aspx" />

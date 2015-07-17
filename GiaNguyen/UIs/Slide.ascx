@@ -12,7 +12,6 @@
         <div class="innerSlider">
             <div class="slider-wrapper theme-default">
                 <div id="slider" class="nivoSlider">
-                    <div class="itemSlide"><a href=""><img src="data/slide-1.jpg" title="..." /></a></div>
                     <asp:Repeater ID="Rpslider" runat="server">
                         <ItemTemplate>
                             <div class="itemSlide"><%# GetImageAd(Eval("AD_ITEM_ID"), Eval("AD_ITEM_FILENAME"), Eval("AD_ITEM_TARGET"), Eval("AD_ITEM_URL"))%></div>

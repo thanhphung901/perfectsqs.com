@@ -54,7 +54,7 @@ namespace vpro.eshop.cpanel.Components
             List<string[]> l = new List<string[]> 
             { 
                 new string[] { "0", "Slideshow" }, 
-                new string[] { "1", "Advertising" },
+                new string[] { "1", "Banner Top" },
             };
 
             rbl.DataSource = from obj in l

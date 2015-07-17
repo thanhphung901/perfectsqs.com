@@ -148,24 +148,6 @@ namespace vpro.eshop.cpanel.page {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtOrder;
         
         /// <summary>
-        /// ucFromDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::vpro.eshop.cpanel.Calendar.pickerAndCalendar ucFromDate;
-        
-        /// <summary>
-        /// ucToDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::vpro.eshop.cpanel.Calendar.pickerAndCalendar ucToDate;
-        
-        /// <summary>
         /// rblLanguage control.
         /// </summary>
         /// <remarks>
